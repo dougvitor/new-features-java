@@ -1,0 +1,1 @@
+Escrevendo e lendo conteúdos de arquivos texto através de novos métodos da classe File
