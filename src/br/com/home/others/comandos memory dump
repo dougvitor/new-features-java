@@ -1,0 +1,8 @@
+-- Obter PID da classe java sendo executada.
+jps
+
+-- criar o arquivo com de memory dump
+jmap -dump:format=b,file=C:\Ambiente_Java\workspace\cursos\udemy\java-avancado-do-8-ao-15\src\br\com\home\others\memory_dump.hprof <PID>
+
+-- utilizar o programa visualvm para visualizar conteúdo do memory dump
+visualvm --jdkhome "C:\Ambiente_Java\JVM\jdk-15"
